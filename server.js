@@ -33,6 +33,6 @@ app.post('/imageurl', image.handleApi);
 
 console.log(process.env.PORT);
 
-app.listen(3001, () => {
-    console.log("running server on port 3001");
+app.listen(process.env.PORT || 3001, () => {
+    console.log(`running server on port ${process.env.PORT}`);
 });
