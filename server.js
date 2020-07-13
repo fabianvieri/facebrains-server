@@ -13,7 +13,7 @@ const db = knex({
     connection: {
         host: '127.0.0.1',
         user: 'fabianvieri',
-        password: '109926',
+        password: '***',
         database: 'facebrains'
     }
 });
